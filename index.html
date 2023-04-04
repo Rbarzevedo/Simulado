@@ -3,35 +3,130 @@
 <HEAD>
     <title>Sucrilhos auuuu</title>
     <style>
-        .image-container {
-            display: flex;
+        @font-face {
+            font-family: 'Comic-Sans';
+            src: url('/fontes/Comic_Sans/design.graffiti.comicsansms.ttf') format('woff2');
+
+}
+
+        .titulo {
+            border: 3px solid black;
+            padding-left: 30px;
+            border-radius: 10px;
+            margin-left: 40px;
+            margin-right: 40px;
+            background-color: blue;
+            font-family: 'Comic-Sans';
+            display:flex;
+            flex-direction: column;
+            align-items: center;
             justify-content: center;
         }
 
-        .cta-button {
-            background-color: #008CBA;
-            color: white;
-            font-size: 1.2rem;
-            font-weight: bold;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
+
+        .image-container {
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 40px;
+            margin-right: 40px;
         }
 
+        .image-container img {
+            height: 700px;
+            overflow: hidden;
+            vertical-align: top;
+            width:90%;
+            border-radius:10px;
+            margin-left: 40px;
+        }
+
+        .image-container button {
+            display: flex;
+            justify-content: center;
+            scale: 120%;
+            width: 200px;
+        }
+
+        .cta-button {
+            background-color: red;
+            color: white;
+            font-size: 1.2rem;
+            font-family: 'Comic-Sans';
+            padding: 10px 20px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        .Mistura {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+            margin-left: 40px;
+            margin-right: 40px;
+            margin-bottom: 30px;
+            
+        }
+
+        .Text-box {
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-right: 10px;
+            font-family: 'Comic-Sans';
+            font-size: 20;
+            background-color:gold;
+        }
+        .video-box {
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin-left: 10px;
+            background-color: blue;
+        }
+
+        .foot {
+            border: 3px solid black;
+            padding-left: 30px;
+            border-radius: 10px;
+            margin-left: 40px;
+            margin-right: 40px;
+            background-color: red;
+            color: white;
+            font-family: 'Comic-Sans';
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
         ;
     </style>
 </HEAD>
 
 <BODY>
-    <div
-        style="border: 3px solid black; padding-left: 30px; border-radius: 10px; margin-left: 40px; margin-right: 40px;">
-        <h1>Website Name</h1>
+    <div class="Titulo">
+        <h1>Sucrilhos Cereal!</h1>
     </div>
-    <img src="https://logosmarcas.net/wp-content/uploads/2021/01/The-Kellogg-Company-Logo-1955-2012.jpg"
-        style="width:100%;border-radius:10px;">
     <div class="image-container">
-        <button class="cta-button">Learn More</button>
+    <img src="https://logosmarcas.net/wp-content/uploads/2021/01/The-Kellogg-Company-Logo-1955-2012.jpg">
+        <button class="cta-button">Do something (Anything, I dare you)</button>
+    </div>
+    <div class="Mistura">
+        <div class="Text-box">
+            <h2>FAQ</h2>
+            <hr color="black">
+          <p>· Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel turpis nec nunc faucibus congue.</p>
+          <p>· Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel turpis nec nunc faucibus congue.</p>
+          <p>· Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel turpis nec nunc faucibus congue.</p>
+          <p>· Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel turpis nec nunc faucibus congue.</p>
+        </div>
+        <div class="Video-box">
+            <iframe width="1000" height="475" src="https://www.youtube.com/embed/K66N55TTLY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+
+    <div class="foot">
+        <h1>About Us · Contact Info · Authorized Dealers</h1>
     </div>
 
 </BODY>
